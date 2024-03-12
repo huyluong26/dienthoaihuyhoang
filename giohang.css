@@ -1,0 +1,86 @@
+/* Cấu trúc chung */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Giỏ hàng */
+  .gio-hang {
+    border: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .gio-hang h1 {
+    text-align: center;
+  }
+  
+  /* Danh sách sản phẩm */
+  .danh-sach-san-pham {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .san-pham {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .san-pham img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+  }
+  
+  .thong-tin-san-pham {
+    flex: 1;
+  }
+  
+  .thong-tin-san-pham h3 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .thong-tin-san-pham p {
+    margin-bottom: 5px;
+  }
+  
+  .btn-xoa {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Tổng tiền */
+  .tong-tien {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .tong-tien span {
+    font-weight: bold;
+  }
+  
+  /* Nút thanh toán */
+  .btn-thanh-toan {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
